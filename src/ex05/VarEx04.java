@@ -7,7 +7,7 @@ public class VarEx04 {
         String s1 = "안녕하세요";
         System.out.println(s1);
         String s2 = s1; // 주소가 저장된다.
-        s2 = "바보";
+        s2 = "바보"; // 새로운 heap 공간이 할당된다.`
 
         System.out.println(s1);
         System.out.println(s2);
